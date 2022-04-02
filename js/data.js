@@ -1,4 +1,4 @@
-+var data=[
+var data=[
     {
         "id":1,
         "team":"csk",
