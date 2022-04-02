@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIMETABLA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            height: 50px;
+            width: 100vw;
+            background-color: aquamarine;
+        }
+        .red{
+            color: red;
+           
+        }
+        .cus{
+            cursor: pointer;
+        }
+        .blue{
+            color: blue;
+        }
+        .pink{
+            color: pink;
+        }
+        .item {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .item>.a {
+            text-decoration: none;
+        }
+
+        .item>.a>.text {
+            list-style: none;
+        }
+
+        .logo {
+            padding: 1%;
+            text-align: left;
+            font-size: 30px;
+        }
+
+        .a {
+            text-align: center;
+            width: 178px;
+            height:50px;
+            padding: 2%;
+        }
+        .a:hover{
+            background-color: red;
+            color: black;
+        }
+        .tablecon{
+            display:flex;
+            justify-content:center;
+            margin: 15px;
+        }
+        table{
+            width: 50%;
+            color: rgb(3, 14, 66);
+        }
+        table,th,td{
+            border: 2px solid  aqua;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <p class="cus"  title="INDIAN PREMIER LEAGUE"><b class="red">I</b><b class="blue">P</b><b class="pink">L</b></p>
+        </div>
+        <div>
+            <ul class="item">
+                <a href="index.html" class="homea a">
+                    <li class="home text">HOME</li>
+                </a>
+                <a href="feature.html" class="featchera a">
+                    <li class="featcher text">VENUE</li>
+                </a>
+                <a href="point_table.html" class="pointtablea a">
+                    <li class="pointtabale text">POINT TABLE</li>
+                </a>
+                <a href="report.html" class="reporta a">
+                    <li class="report text">REPORT</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <!-- -----------------------table start------------------------ -->
+    <div class="tablecon">
+        <table>
+            <tr >
+                <th>Match No</th>
+                <th>Match</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Venue</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mumbai Indians  vs Chennai Super Kings</td>
+                <td>September 19, 2022</td>
+                <td>7:30 PM</td>
+                <td>Dubai</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Kolkata Knight Riders  vs Royal Challengers Bangalore</td>
+                <td>September 20, 2022</td>
+                <td>7:30 PM</td>
+                <td>Abu Dhabi</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Punjab Kings vs Rajasthan Royals</td>
+                <td>September 21, 2022</td>
+                <td>7:30 PM</td>
+                <td>Dhabi</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Delhi Capitals  vs Sunrisers Hyderabad</td>
+                <td>September 22, 2022</td>
+                <td>7:30 PM</td>
+                <td>Dhabi</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Mumbai Indians  vs Kolkata Knight Riders</td>
+                <td>September 23, 2022</td>
+                <td>7:30 PM</td>
+                <td>Abu Dhab</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Royal Challengers Bangalore vs Chennai Super Kings</td>
+                <td>September 24, 2022</td>
+                <td>7:30 PM</td>
+                <td>Sharjah</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Delhi Capitals  vs Rajasthan Royals</td>
+                <td>September 25, 2022</td>
+                <td>3:30 PM</td>
+                <td>Abu Dhabi</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Sunrisers Hyderabad vs Punjab Kings</td>
+                <td>September 25, 2022</td>
+                <td>7:30 PM</td>
+                <td>Sharjah</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Chennai Super Kings  vs Kolkata Knight Riders</td>
+                <td>September 26, 2022</td>
+                <td>3:30 PM</td>
+                <td>Abu Dhabi</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Royal Challengers Bangalore vs Mumbai Indians</td>
+                <td>September 26, 2022</td>
+                <td>7:30 PM</td>
+                <td>Dubai</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Sunrisers Hyderabad vs Rajasthan Royals</td>
+                <td>September 27, 2022</td>
+                <td>7:30 PM</td>
+                <td>Dubai</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Kolkata Knight Riders  vs Delhi Capitals</td>
+                <td>September 28, 2022</td>
+                <td>3:30 PM</td>
+                <td>Sharjah</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Mumbai Indians  vs Punjab Kings</td>
+                <td>September 28, 2022</td>
+                <td>7:30 PM</td>
+                <td>Abu Dhabi</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Rajasthan Royals  vs RCB</td>
+                <td>September 29, 2022</td>
+                <td>7:30 PM</td>
+                <td>Dubai</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Sunrisers Hyderabad vs Chennai Super Kings</td>
+                <td>September 30, 2022</td>
+                <td>7:30 PM</td>
+                <td>Sharjah</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Kolkata Knight Riders  vs Punjab Kings</td>
+                <td>October 1, 2022</td>
+                <td>7:30 PM</td>
+                <td>Dubai</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Mumbai Indians  vs Delhi Capitals</td>
+                <td>October 2, 2022</td>
+                <td>3:30 PM</td>
+                <td>Sharjah</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Rajasthan Royals  vs Chennai Super Kings</td>
+                <td>October 2, 2022</td>
+                <td>7:30 PM</td>
+                <td>Abu Dhabi</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Royal Challengers Bangalore vs Punjab Kings</td>
+                <td>October 3, 2022</td>
+                <td>3:30 PM</td>
+                <td>Sharjah</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Kolkata Knight Riders  vs Sunrisers Hyderabad</td>
+                <td>October 3, 2022</td>
+                <td>7:30 PM</td>
+                <td>Dubai</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Delhi Capitals  vs Chennai Super Kings</td>
+                <td>October 4, 2022</td>
+                <td>7:30 PM</td>
+                <td>Dubai</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Rajasthan Royals  vs Mumbai Indians</td>
+                <td>October 5, 2022</td>
+                <td>7:30 PM</td>
+                <td>Sharjah</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Royal Challengers Bangalore vs Sunrisers Hyderabad</td>
+                <td>October 6, 2022</td>
+                <td>7:30 PM</td>
+                <td>Abu Dhabi</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Chennai Super Kings  vs Punjab Kings</td>
+                <td>October 7, 2022</td>
+                <td>3:30 PM</td>
+                <td>Dubai</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Kolkata Knight Riders  vs Rajasthan Royals</td>
+                <td>October 7, 2022</td>
+                <td>7:30 PM</td>
+                <td>Sharjah</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>Sunrisers Hyderabad vs Mumbai Indians</td>
+                <td>October 8, 2022</td>
+                <td>3:30 PM</td>
+                <td>Abu Dhabi</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>Royal Challengers Bangalore vs Delhi Capitals</td>
+                <td>October 8, 2022</td>
+                <td>7:30 PM</td>
+                <td>Dubai</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>Qualifier 1</td>
+                <td>October 10, 2021</td>
+                <td>7:30 PM</td>
+                <td>Dubai</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>Eliminator</td>
+                <td>October 11, 2021</td>
+                <td>7:30 PM</td>
+                <td>Sharjah</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>Qualifier 2</td>
+                <td>October 13, 2021</td>
+                <td>7:30 PM</td>
+                <td>Sharjah</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>Final</td>
+                <td>October 15, 2021</td>
+                <td>7:30 PM</td>
+                <td>Dubai</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p style="text-align: center;height: 50px ;width: 100%; text-transform: uppercase; padding: 2%;">
+            it s a ipl demo project by Kalpataru
+        </p>
+    </div>
+</body>
+</html>
